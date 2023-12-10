@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Header = () => {
 
   return (
-    <header className='fixed top-0 w-full h-[80px] flex justify-around items-center bg-[#fbfcfd] shadow-[0px_8px_21px_#e8e8f1] py-11 px-16 z-[200] ' >
+    <header className='fixed top-0 w-full h-[80px] flex justify-around items-center  py-11 px-16 z-[200] ' >
     {/* Social icons */}
           <motion.div 
           initial={{
