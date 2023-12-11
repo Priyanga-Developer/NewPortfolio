@@ -19,9 +19,9 @@ const App = () => {
     <section id="skills" className=' snap-start' >
       <Skills/>
     </section>
-    {/* <section id="projects" className=' snap-center' >
-      {/* <Projects/> */}
-    {/* </section> */} 
+    <section id="projects" className=' snap-start' >
+       <Projects/>
+    </section> 
   
   </div>
   )

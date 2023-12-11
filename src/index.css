@@ -12,8 +12,8 @@
     }
     body{
       @apply overflow-x-hidden;
-      @apply bg-black;
-      @apply text-white;
+      /* @apply bg-black;
+      @apply text-white; */
     }
     
     html,body{
