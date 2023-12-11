@@ -65,15 +65,16 @@ const Skills = () => {
      <div className='grid grid-cols-3 gap-[5px] md:gap-5 '>
      {techs.map(({id,element,textColour,style ,text,directionLeft})=>{
                                 const Tag=element
-                                return  <div className='flex relative group '>
+                                return  <div className='flex relative group ' key={id}>
                                   <motion.div 
                                   initial={{
-                                    x:directionLeft ? -200 :200,
+                                    x:directionLeft ? -100 :100,
                                     opacity:0
                                   }}
                                   transition={{duration:1}}
                                   whileInView={{opacity:1,x:0}}
-                                  className={`flex justify-center items-center rounded-full border border-gray-500 h-24 w-24 xl:w-32 xl:h-32 filter  cursor-pointer ${style}`} key={id}>
+                              
+                                  className={`flex justify-center items-center rounded-full border border-gray-500 h-24 w-24 xl:w-32 xl:h-32 filter  cursor-pointer ${style}`} >
 
                                   <Tag className={`   w-16 text-[100px]  sm:text-[120px] group-hover:grayscale  transition duration-300 ease-in-out ${textColour} `}/>
                                   </motion.div>

@@ -4,11 +4,12 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Contact from './Components/Contact';
 
 
 const App = () => {
   return (
-    <div className='  snap-y snap-mandatory z-0' >
+    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden' >
     <Header/>
     <section id="hero" className=' snap-start'>
       <Hero/>
@@ -21,6 +22,9 @@ const App = () => {
     </section>
     <section id="projects" className=' snap-start' >
        <Projects/>
+    </section>
+    <section id="contact" className=' snap-start' >
+       <Contact/>
     </section> 
   
   </div>
