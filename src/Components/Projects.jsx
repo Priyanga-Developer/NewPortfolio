@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const portfolios=[   {
     id:1,
-    title:"MovieFlix",
+    title:"MovieFlix.App",
     src:MovieFlix,
     details:" MovieFlix app is a platform where users can watch trailers of movies by genres.Implemented user signup, login, and logout functionalities using Firebase Authentication.Fetched movie data from a movie database API (such as TMDB) and upon selecting a movie,displaying their relevant videos.Utilised Redux for state management,maintaining a centralized store for user's data.",
     code:"https://github.com/Priyanga-Developer/netflixCloneapp",
@@ -23,7 +23,7 @@ const Projects = () => {
 
   {
     id:2,
-    title:"Xpenstrac",
+    title:"Xpenstrac.App",
     src:Xpenstrac,
     details:"XpensTrac is an expense tracker app that manages our daily expenses and income.Used Context API hook for state management and custom hooks for fetching data from the users.Furthermore, incorporated firebase for authentication and data storage as backend service. Integrated Toastify into the app, enhancing user experience with informative notifications.",
     code:"https://github.com/Priyanga-Developer/XpensTrac",

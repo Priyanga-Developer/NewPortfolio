@@ -2,8 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' w-full text-center max-h-fit p-16'> <p>copyrigth</p>  
-    </div>
+    <footer
+        className=' relative  w-full h-[80px]  text-center 
+         py-16 px-16 overflow-hidden'>
+          <p className=' text-base'><span className=' font-semibold'>&#169; Priyanga.All rights reserved.</span>Built with React,Tailwind CSS,Framer Motion,Vercel Hoisting </p>  
+    </footer>
+
   )
 }
 
