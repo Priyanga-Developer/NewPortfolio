@@ -5,12 +5,12 @@ import { IoMail } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className=' relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className=' w-full relative h-screen flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center py-15  overflow-hidden'>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl'> Contact</h3>
-        <div className='flex flex-col'>
-            <h4 className='text-3xl py-8 font-semibold text-center'>I have got just what you need.Lets talk!</h4>
+        <div className='flex flex-col space-y-10  absolute top-[130px]   '>
+            <h4 className='text-3xl  font-semibold text-center'>I have got just what you need.Lets talk!</h4>
        
-        <div className='space-y-10 '>
+        <div className=' flex flex-col space-y-10 '>
         <div className='flex items-center justify-center space-x-5'>
         <FaPhone className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
         <p className='text-2xl'>43735272638363</p>
@@ -24,15 +24,18 @@ const Contact = () => {
         <p className='text-2xl'>43735272638363</p>
         </div>
         </div>
-   <form action="" className='flex flex-col space-y-2 w-fit px-14 mx-auto'>
-    <div className='flex space-x-2'>
-      <input className='contactInput' type="text" name="" id="" />
-      <input className='contactInput' type='text' />            
+        <div>
+        <form action="https://getform.io/f/362572ab-a4ac-44d2-a58e-1cb672f66b5c" method='POST'  className='flex flex-col w-fit mx-auto space-y-2 '>
+    <div className='flex md:flex-row md:space-x-2  flex-col'>
+      <input className='contactInput' type="text" name="name"   placeholder='Name' />
+      <input className='contactInput' name='email' type='email' required  placeholder='Email' />            
     </div>
-    <input className='contactInput' type='email' required name='name' placeholder='Enter your Email' />
-  <textarea name="message" required placeholder='Enter your message'  className='contactInput'></textarea>
-  <button className=''>Submit</button>
+    <input className='contactInput' name='subject' type='text'  placeholder='Subject'  />
+  <textarea name="message" required placeholder='Message'  className='contactInput'></textarea>
+  <button type='submit' className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit</button>
    </form>
+        </div>
+       
    </div>
     </div>
   )

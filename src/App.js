@@ -5,6 +5,7 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 
 const App = () => {
@@ -25,6 +26,9 @@ const App = () => {
     </section>
     <section id="contact" className=' snap-start' >
        <Contact/>
+    </section> 
+    <section id="footer" className=' snap-start' >
+       <Footer/>
     </section> 
   
   </div>
