@@ -22,10 +22,10 @@ const Hero = () => {
                 <Cursor cursorColor='#F7AB0A'/>
             </h1>
             <div className=' pt-5'>
-              <Link> <button className='heroButton'>About</button></Link>
-              <Link> <button className='heroButton'>Skills</button></Link>
-              <Link>  <button className='heroButton'>Projects</button></Link>
-              <Link>       <button className='heroButton'>Contact</button></Link>
+              <Link to='about'> <button className='heroButton'>About</button></Link>
+              <Link to='skills'> <button className='heroButton'>Skills</button></Link>
+              <Link to='projects'>  <button className='heroButton'>Projects</button></Link>
+              <Link to='contact'>  <button className='heroButton'>Contact</button></Link>
             </div>
         </div>
       

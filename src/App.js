@@ -6,6 +6,8 @@ import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import { Link } from 'react-scroll';
+import heroIcon from "./Assets/hero.jpg"
 
 
 const App = () => {
@@ -30,7 +32,15 @@ const App = () => {
     <section id="footer" className=' snap-start' >
        <Footer/>
     </section> 
-  
+     <Link to='hero'>
+     <div className='fixed bottom-1 w-full cursor-pointer'>
+      <div className='flex items-center justify-center'>
+        <img 
+        className='h-10 w-10 rounded-full  cursor-pointer'
+        src={heroIcon} alt="heroicon" />
+      </div>
+     </div>
+     </Link>
   </div>
   )
 }
