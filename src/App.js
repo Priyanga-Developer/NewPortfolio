@@ -10,7 +10,7 @@ import Footer from './Components/Footer';
 
 const App = () => {
   return (
-    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden' >
+    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden  ' >
     <Header/>
     <section id="hero" className=' snap-start'>
       <Hero/>

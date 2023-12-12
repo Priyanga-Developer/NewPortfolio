@@ -56,7 +56,7 @@ const Projects = () => {
     transition={{duration:1.5}}
      className='h-screen relative flex flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center pb-[1rem] z-0 overflow-hidden'>
        <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl'>Projects</h3>
-       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
+       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden scrollbar-thin snap-x snap-mandatory z-20'>
        {portfolios.map(({id,title,src,details,tech1,tech2,tech3,tech4,tech5,tech6,code,demo})=>
                                 <div key={id} className=' w-screen flex flex-shrink-0 snap-start flex-col space-y-5 items-center justify-center p-20  md:p-36 h-screen '>
                                       <div className=' flex md:w-1/2 items-center justify-center pt-32 '>

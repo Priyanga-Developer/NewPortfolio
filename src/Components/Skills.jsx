@@ -73,7 +73,7 @@ const Skills = () => {
                                   }}
                                   transition={{duration:1}}
                                   whileInView={{opacity:1,x:0}}
-                              
+                                  viewport={{once:true}}
                                   className={`flex justify-center items-center rounded-full border border-gray-500 h-24 w-24 xl:w-32 xl:h-32 filter  cursor-pointer ${style}`} >
 
                                   <Tag className={`   w-16 text-[100px]  sm:text-[120px] group-hover:grayscale  transition duration-300 ease-in-out ${textColour} `}/>
