@@ -12,20 +12,20 @@ const Hero = () => {
        delaySpeed:2000,
     })
   return (
-    <div className='   w-full h-screen flex flex-col space-y-8 items-center justify-center overflow-hidden text-center mt-12 '>
+    <div className= ' w-full h-screen flex flex-col space-y-8 items-center justify-center overflow-hidden text-center mt-12'>
         <BackgroundCircles/>
         <img src={profile} alt="mypicture" className='relative rounded-full h-32 w-32 mx-auto object-cover' />
         <div className='z-20'>
-          <h2 className=' text-sm  font-semibold uppercase pb-2 tracking-[15px]'>FrontEnd Developer</h2>
-            <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
+          <h2 className=' text-[12px]  font-semibold uppercase pb-2 tracking-[15px]'>FrontEnd Developer</h2>
+            <h1 className='text-2xl lg:text-6xl font-semibold px-10'>
                 <span className='mr-3'>{text}</span>
                 <Cursor cursorColor='#F7AB0A'/>
             </h1>
-            <div className=' pt-5'>
-              <Link to='about'> <button className='heroButton'>About</button></Link>
-              <Link to='skills'> <button className='heroButton'>Skills</button></Link>
-              <Link to='projects'>  <button className='heroButton'>Projects</button></Link>
-              <Link to='contact'>  <button className='heroButton'>Contact</button></Link>
+            <div className=' pt-5 justify-center items-center flex flex-col gap-2 md:flex-row'>
+              <Link to='about' smooth duration={500}> <button className='heroButton'>About</button></Link>
+              <Link to='skills' smooth duration={500}> <button className='heroButton'>Skills</button></Link>
+              <Link to='projects' smooth duration={500}>  <button className='heroButton'>Projects</button></Link>
+              <Link to='contact' smooth duration={500}>  <button className='heroButton'>Contact</button></Link>
             </div>
         </div>
       

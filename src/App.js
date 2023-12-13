@@ -32,15 +32,16 @@ const App = () => {
     <section id="footer" className=' snap-start' >
        <Footer/>
     </section> 
-     <Link to='hero'>
-     <div className='fixed bottom-1 w-full cursor-pointer'>
+  
+     <div className='fixed   bottom-1 w-full cursor-pointer'>
       <div className='flex items-center justify-center'>
+      <Link to='hero' smooth duration={500}>
         <img 
         className='h-10 w-10 rounded-full  cursor-pointer'
         src={heroIcon} alt="heroicon" />
+      </Link>
       </div>
      </div>
-     </Link>
   </div>
   )
 }

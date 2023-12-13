@@ -67,7 +67,7 @@ const Projects = () => {
                                         }}
                                         transition={{duration:1.2}}
                                         whileInView={{opacity:1,y:0}}
-                                       
+                                        viewport={{once:true}}
                                         src={src} alt='projectdemo' className='object-cover w-[100%] h-[100%]' />
                                         </div>
                                         <div className='    px-0 md:px-10  '>  

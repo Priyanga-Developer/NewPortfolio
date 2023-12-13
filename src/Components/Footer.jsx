@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
         className=' relative  w-full  text-center 
-         py-16 px-16 overflow-hidden'>
+          px-16 py-3 overflow-hidden'>
           <p className=' text-base'><span className=' font-semibold'>&#169; Priyanga.All rights reserved.</span>Built with React,Tailwind CSS,Framer Motion,Vercel Hoisting </p>  
     </footer>
 
