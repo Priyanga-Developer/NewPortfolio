@@ -11,8 +11,9 @@ import heroIcon from "./Assets/hero.jpg"
 
 
 const App = () => {
+  // #10132a
   return (
-    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden  ' >
+    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden dark:bg-black dark:text-white ' >
     <Header/>
     <section id="hero" className=' snap-start'>
       <Hero/>
