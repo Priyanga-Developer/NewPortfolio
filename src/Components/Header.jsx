@@ -35,7 +35,7 @@ const Header = () => {
   
 
   return (
-    <header className={` ${show&& ' bg-gray-300 dark:bg-black'} fixed top-0 w-full h-[80px] 
+    <header className={` ${show&& ' bg-white dark:bg-black'} fixed top-0 w-full h-[80px] 
     flex justify-around items-center  py-11 md:px-16 z-[200]  transition-all ease-in duration-75` }>
     {/* Social icons */}
           <motion.div 
