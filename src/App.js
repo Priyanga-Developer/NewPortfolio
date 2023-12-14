@@ -11,7 +11,7 @@ import heroIcon from "./Assets/hero.jpg"
 
 
 const App = () => {
-  // #10132a
+
   return (
     <div className='  snap-y snap-mandatory z-0 overflow-x-hidden dark:bg-black dark:text-white ' >
     <Header/>
@@ -34,7 +34,7 @@ const App = () => {
        <Footer/>
     </section> 
   
-     <div className='fixed   bottom-1 w-full cursor-pointer'>
+     <div className='fixed   bottom-1 w-full cursor-pointer z-[200]'>
       <div className='flex items-center justify-center'>
       <Link to='hero' smooth duration={500}>
         <img 
@@ -46,7 +46,5 @@ const App = () => {
   </div>
   )
 }
-
-
 
 export default App;

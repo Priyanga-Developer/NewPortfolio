@@ -29,8 +29,7 @@ const Hero = () => {
               <Link to='projects' smooth duration={500}>  <button className='heroButton dark:hover:bg-[#F7AB0A]'>Projects</button></Link>
               <Link to='contact' smooth duration={500}>  <button className='heroButton dark:hover:bg-[#F7AB0A]'>Contact</button></Link>
             </div>
-        </div>
-      
+        </div>  
         </div>
   )
 }
