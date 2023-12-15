@@ -62,7 +62,7 @@ const Skills = () => {
     transition={{duration:1.5}}
      className=' w-full h-screen flex flex-col relative text-center justify-center items-center  xl:px-10 md:text-left md:px-12  mx-auto xl:space-y-0  md:flex-row max-w-[2000px]  '>
      <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl'> Skills</h3>
-     <div className='grid grid-cols-3 gap-[5px] md:gap-5 '>
+     <div className='grid grid-cols-3 gap-[5px] md:gap-5   '>
      {techs.map(({id,element,textColour,style ,text,directionLeft})=>{
                                 const Tag=element
                                 return  <div className='flex relative group ' key={id}>

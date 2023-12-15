@@ -17,7 +17,7 @@ const Contact = () => {
         <div className='flex flex-col space-y-10  absolute top-[134px]   '>
             <h4 className='text-2xl  font-semibold text-center'>I have got just what you need.Lets talk!</h4>
        
-        <div className=' flex flex-col md:space-y-5 '>
+        <div className=' flex flex-col md:space-y-5 flex-nowrap justify-center items-start mx-auto '>
               <div className='flex items-center justify-center space-x-5'>
               <FaPhone className='text-[#F7AB0A] h-6 w-6 animate-pulse' />
               <p className='text-lg'>+91-7868075256</p>
@@ -42,7 +42,7 @@ const Contact = () => {
       }}
       whileInView={{opacity:1,x:0}}
         action="https://getform.io/f/362572ab-a4ac-44d2-a58e-1cb672f66b5c" method='POST'  
-        className='flex flex-col w-fit mx-auto space-y-2 '>
+        className='flex flex-col w-fit mx-auto space-y-2  '>
           <div className='flex md:flex-row md:space-x-2 md:space-y-0 space-y-2 flex-col'>
             <input className='contactInput' type="text" name="name"   placeholder='Name' />
             <input className='contactInput' name='email' type='email' required  placeholder='Email' />            

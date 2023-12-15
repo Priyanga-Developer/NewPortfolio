@@ -21,7 +21,7 @@ const App = () => {
     <section id="about" className=' snap-center' >
       <About/>
     </section>
-    <section id="skills" className=' snap-start' >
+    <section id="skills" className=' snap-center' >
       <Skills/>
     </section>
     <section id="projects" className=' snap-start' >
