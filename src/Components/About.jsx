@@ -23,7 +23,7 @@ const About = () => {
         className='mb-10 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[300px] mt-40 md:mt-0 ' 
         alt="myprofile" />
         <div className='space-y-5 px-0 md:px-10'>
-            <h4 className='text-2xl font-semibold text-center md:text-left '>Here is my SnapShot of Me!😉</h4>
+            <h4 className='text-2xl font-semibold text-center md:text-left '>Here is a SnapShot of Me!😉</h4>
             <p className='text-base text-center md:text-left'>
              With a successful track record in talent acquisition,I begun an exiciting journey to pivot my career to frond-end development. 
             Leveraging my expertise in problem solving and analytical skills cultivated in recruitment field,I'm actively honing my technical skills and applying them to front-end Development Projects.
