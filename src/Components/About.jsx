@@ -9,7 +9,7 @@ const About = () => {
      whileInView={{opacity:1}}
      transition={{duration:1.5}}
     className='w-full px-12  sm:pt-56 md:p-60 md:pt-[11rem] flex flex-col relative h-screen md:text-left  md:flex-row max-w-7xl  justify-evenly mx-auto items-center '>
-        <h3 className='absolute  top-0 uppercase tracking-[20px] text-2xl'>About</h3>
+        <h3 className='absolute   top-20 uppercase tracking-[20px] text-2xl'>About</h3>
         <motion.img
         initial={{
             x:-200,
@@ -25,7 +25,7 @@ const About = () => {
         <div className='space-y-5 px-0 md:px-10'>
             <h4 className='text-2xl font-semibold text-center md:text-left '>Here is a SnapShot of Me!😉</h4>
             <p className='text-base text-center md:text-left'>
-             With a successful track record in talent acquisition,I begun an exiciting journey to pivot my career to frond-end development. 
+             With a successful track record in talent acquisition,I begun an exciting journey to pivot my career to <b>frond-end development</b>. 
             Leveraging my expertise in problem solving and analytical skills cultivated in recruitment field,I'm actively honing my technical skills and applying them to front-end Development Projects.
             Committed to continuous learning, I've completed web develpoment course, ensuring a seamless transition.<br/>Scroll down to know more about my skills and projects.👩🏻‍💻
             </p>
