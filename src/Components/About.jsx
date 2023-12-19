@@ -9,7 +9,7 @@ const About = () => {
      whileInView={{opacity:1}}
      transition={{duration:1.5}}
     className='w-full px-12  sm:pt-56 md:p-60 md:pt-[11rem] flex flex-col relative h-screen md:text-left  md:flex-row max-w-7xl  justify-evenly mx-auto items-center '>
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-2xl'>About</h3>
+        <h3 className='absolute  top-0 uppercase tracking-[20px] text-2xl'>About</h3>
         <motion.img
         initial={{
             x:-200,
