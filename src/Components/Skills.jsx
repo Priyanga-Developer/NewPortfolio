@@ -10,7 +10,7 @@ const Skills = () => {
       element:BiLogoHtml5,
       textColour:"text-[#e34c26]",
       style:"shadow-orange-500",
-      text:"HTML",
+      text:"HTML5",
       directionLeft:true
     },
     {
@@ -18,7 +18,7 @@ const Skills = () => {
       element:BiLogoCss3,
       textColour:"text-[#264de4]",
       style:"shadow-blue-500",
-      text:"CSS",
+      text:"CSS3",
       directionLeft:true
     },
     {
