@@ -12,10 +12,6 @@
     }
     body{
       @apply overflow-x-hidden;
-      @apply scrollbar-thin;
-      @apply scrollbar-thumb-rounded;
-      @apply  scrollbar-track-[#80809a78] ;
-      @apply scrollbar-thumb-[#F7AB0A]/80 ;
    
     }
     

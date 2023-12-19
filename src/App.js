@@ -13,7 +13,7 @@ import heroIcon from "./Assets/hero.jpg"
 const App = () => {
 
   return (
-    <div className='  snap-y snap-mandatory z-0 overflow-x-hidden dark:bg-black dark:text-white ' >
+    <div className='snap-y snap-mandatory z-0 overflow-x-hidden dark:bg-black dark:text-white  scrollbar scrollbar-track-gray-600 scrollbar-thumb-amber-600 ' >
     <Header/>
     <section id="hero" className=' snap-start'>
       <Hero/>
