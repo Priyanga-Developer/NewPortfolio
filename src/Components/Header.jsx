@@ -102,7 +102,7 @@ const Header = () => {
       className='md:text-3xl text-4xl  cursor-pointer transition duration-100  text-[#14143c]'
        />: <MdLightMode  onClick={()=>setDarkMode(!darkMode)}
        className='md:text-3xl text-4xl  cursor-pointer transition duration-100  text-[#F7AB0A]' />}
-        <a href='./Priyanga_Developer.pdf'target='_blank'  rel='noreferrer' download='Priyanga_Developer' className=' w-full flex  items-center justify-around  gap-5  border-[#fa0] 
+        <a href='./Priyanga_FrontEnd_Developer .pdf'target='_blank'  rel='noreferrer' download='Priyanga_Developer' className=' w-full flex  items-center justify-around  gap-5  border-[#fa0] 
          rounded-full px-[10px] py-[6px] duration-500   hover:bg-[#f9f9cd] dark:hover:text-black'  > 
         <BsFillPersonLinesFill className=' text-3xl  cursor-pointer text-[#14143c] dark:text-[#F7AB0A]'/>
                   <><p className=' uppercase hidden md:inline-flex text-sm text-gr'> GET Resume</p></>
