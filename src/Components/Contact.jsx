@@ -19,8 +19,8 @@ const Contact = () => {
        
         <div className=' flex flex-col md:space-y-5 flex-nowrap justify-center items-start mx-auto '>
               <div className='flex items-center justify-center space-x-5'>
-              <FaPhone className='text-[#F7AB0A] h-6 w-6 animate-pulse' />
-              <p className='text-lg'>+91-7868075256</p>
+              {/* <FaPhone className='text-[#F7AB0A] h-6 w-6 animate-pulse' />
+              <p className='text-lg'>+91-7868075256</p> */}
               </div>
               <div className='flex items-center justify-center space-x-5'>
               <IoMail className='text-[#F7AB0A] h-6 w-6 animate-pulse' />
